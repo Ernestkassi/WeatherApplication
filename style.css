@@ -1,0 +1,134 @@
+body{
+    background-image: url("images/img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+}
+
+h1{
+    font-size: 50px;
+    color: #e7eee9;
+    margin-top:20px;
+}
+
+#meteo-image{
+    color: yellow;
+}
+
+.input{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #333;
+    width: 40rem;
+    height: 8rem;
+    border: 1px solid #123d3d;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 4px;
+    margin-bottom: 2rem;
+
+}
+
+::-webkit-input-placeholder{
+    color:#fff;
+    
+}
+
+.input .ville{
+    display: flex;
+    justify-content: center;
+    background: #9e9c9c;
+    width: 38rem;
+    height: 3rem;
+    border-radius: 8px;
+    padding: 0px;
+    position: relative;
+    margin-top: 4px;
+    text-align: center;
+    border: none;
+
+}
+.input .btn{
+    width: 38rem;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+    background: #535252;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #333;
+    width: 60rem;
+    height: 24rem;
+    border: 1px solid #123d3d;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 1rem;
+
+}
+
+/*informations sur la meteo */
+
+.box-container .localisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 4rem;
+    background: #008080;
+    border-radius: 8px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.box-container .meteo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 6rem;
+    background: #9e9c9c;
+    border-radius: 8px;
+    font-size: 3rem;
+    color: #fff;
+
+}
+
+.box-container .vent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 6rem;
+    background: #9e9c9c;
+    border-radius: 8px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.box-container .air{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 6rem;
+    background: #9e9c9c;
+    border-radius: 8px;
+    font-size: 3rem;
+    color: #fff;
+}
+.vent{
+    color: #333;
+}

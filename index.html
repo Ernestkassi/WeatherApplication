@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Météo <i id="meteo-image" class="fas fa-cloud-sun-rain"></i> </h1>
+    <form >
+        <div class="input">
+            <input id="choix" class="ville" type="text" value="" placeholder="Saisissez la ville de votre choix">
+            <button class="btn" type="submit"> Lancez votre recherche </button>
+        </div>
+    </form>
+
+    <div class="box-container">
+        <div id="city" class="localisation"></div>
+        <div id="weather" class="meteo"></div>
+        <div id="wind-air" class="vent"></div>
+        <div id="air" class="air"></div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
